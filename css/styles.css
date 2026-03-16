@@ -1,0 +1,13 @@
+#landing {
+    background-size: cover;
+    background-color: azure;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(assets/img/mangawhai-heads-1.jpg);
+}
+
+#about {
+    height: 100vh;
+    width: 100vw;
+}
