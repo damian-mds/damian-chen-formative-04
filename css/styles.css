@@ -1,13 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
 #landing {
+    padding: 5vw;
+    height: 80vh;
+    width: 100%;
+    background-image: url("../assets/img/mangawhai-heads-1.jpg");
     background-size: cover;
-    background-color: azure;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100vw;
-    background-image: url(assets/img/mangawhai-heads-1.jpg);
+    background-position: center;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+
+button {
+    border: none;
+    background-color: white;
+    height: 6vh;
+    width: 13vh;
+}
+
+#logo {
+    height: 4vh;
+}
+
+#menu {
+    height: 4vh;
+}
+
+#heroText {
+    display: flex;
+    flex-direction: column-reverse;
+    color: white;
+    font-size: 3vh;
 }
 
 #about {
-    height: 100vh;
-    width: 100vw;
+    background-color: #e0e0db;
+    padding: 5vw;
+    height: auto;
+    width: 100%;
 }
+
+#about h1 {
+    font-size: 3vh;
+}
+
+#about p {
+    font-size: 2vh;
+}
+
+#cards {
+    padding: 5vw;
+    display: grid;
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+}
+
+#cards img {
+    height: 50vh;
+    width: 50vh;
+
+}
+
+#cards button {
+    color: white;
+    background-color: #28354f;
+    margin-bottom: 5vh;
+}
+
+#contact {
+    height: 60vh;
+    width: 100%;
+    background-color: #2a2829;
+}
+
