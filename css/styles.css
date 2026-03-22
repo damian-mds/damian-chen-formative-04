@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: Poppins;
 }
 
 #landing {
@@ -33,7 +34,7 @@ button {
     display: flex;
     flex-direction: column-reverse;
     color: white;
-    font-size: 3vh;
+    font-size: 1.8vh;
 }
 
 #about {
@@ -44,26 +45,26 @@ button {
 }
 
 #about h1 {
-    font-size: 3vh;
+    font-size: 2vh;
 }
 
 #about p {
-    font-size: 2vh;
+    font-size: 1.5vh;
 }
 
 #cards {
     padding: 5vw;
     display: grid;
     background-color: white;
-    height: 100vh;
+    height: auto;
     width: 100%;
-    justify-content: center;
 }
 
 #cards img {
-    height: 50vh;
-    width: 50vh;
-
+    height: 38vh;
+    width: 38vh;
+    display: block;
+    margin: 0 auto;
 }
 
 #cards button {
@@ -72,9 +73,57 @@ button {
     margin-bottom: 5vh;
 }
 
-#contact {
-    height: 60vh;
+#backgroundWithText {
+    height: 40vh;
     width: 100%;
-    background-color: #2a2829;
+    background-image: url("../assets/img/mangawhai-heads-1.jpg");
+    background-position: left;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.2vh;
 }
 
+
+footer {
+    color: white;
+    padding-top: 10vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-bottom: 5vw;
+    height: 40vh;
+    width: 100%;
+    display: grid;
+    justify-items: left;
+    background-color: #2a2829;
+}
+#contact {
+    height: auto;
+    width: 100%;
+
+}
+
+#footerLogo {
+    filter: invert(1);
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer a {
+    color: white;
+    text-decoration: white;
+    text-decoration: underline;
+}
+
+input {
+    height: 6vh;
+    width: 13vh;
+}
